@@ -1,0 +1,146 @@
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.task-item span {
+    flex: 1;
+}
+
+.check-btn {
+    background: green;
+    color: white;
+    border: none;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.done span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.input-section input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.input-section button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+}
+
+.input-section button:hover {
+    background: #1e40af;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #f9fafb;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.task-item span {
+    flex: 1;
+    word-break: break-word;
+}
+
+.check-btn {
+    background: #16a34a;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.check-btn:hover {
+    background: #15803d;
+}
+
+.delete-btn {
+    background: #dc2626;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #b91c1c;
+}
+
+.done span {
+    text-decoration: line-through;
+    color: #6b7280;
+}
+
